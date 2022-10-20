@@ -19,10 +19,10 @@
 
 ## 動作環境
 
-* Mac OS 12.5.1 (Monterey)
-* Android Studio Arctic Fox (2020.3.1)
-* Android 12 (Simulator)
-* Xcode Version 14.0
+* MacOS Monterey version 12.5 
+* Android Studio Chipmunk | 2021.2.1 Patch 2
+* Pixel 2 - Android 13 (Simulator)
+* Xcode 13.0
 * Unity 2020.3.20f1 (LTS)
 * iPhone X (iOS 16)
 * Unity SDK v4.4.1
