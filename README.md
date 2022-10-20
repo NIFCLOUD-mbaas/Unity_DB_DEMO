@@ -21,10 +21,10 @@
 
 * MacOS Monterey version 12.5 
 * Android Studio Chipmunk | 2021.2.1 Patch 2
-* Pixle 2 - Android 13 (Simulator)
+* Pixel 2 - Android 13 (Simulator)
 * Xcode 13.0
 * Unity 2020.3.20f1 (LTS)
-* iPhone X 15.0.2
+* iPhone X (iOS 16)
 * Unity SDK v4.4.1
 
 ※上記内容で動作確認をしています。
