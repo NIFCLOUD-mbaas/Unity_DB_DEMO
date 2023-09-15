@@ -19,13 +19,13 @@
 
 ## 動作環境
 
-* MacOS Monterey version 12.5 
+* MacOS Venture version 13.4.1
 * Android Studio Chipmunk | 2021.2.1 Patch 2
 * Pixel 2 - Android 13 (Simulator)
-* Xcode 13.0
-* Unity 2020.3.20f1 (LTS)
-* iPhone X (iOS 16)
-* Unity SDK v4.4.1
+* Xcode 15.0
+* Unity 2022.2.19 (LTS)
+* iPhone SE (iOS 17)
+* Unity SDK v5.1.1
 
 ※上記内容で動作確認をしています。
 
@@ -141,12 +141,12 @@ public class Unity_DB_DEMO : MonoBehaviour {
 	public Text result;
 	// Use this for initialization
 	void Start () {
-	
+
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
 
 	public void Start_Demo(){
@@ -157,7 +157,7 @@ public class Unity_DB_DEMO : MonoBehaviour {
 		testClass["message"] = "Hello, NCMB!";
 
 		// データストアへの登録
-		testClass.SaveAsync((NCMBException e) => { 
+		testClass.SaveAsync((NCMBException e) => {
 				if (e != null) {
 					result.text += "保存に失敗しました。\n ErrorCode : " + (string)e.ErrorMessage+ "\n";
 					UnityEngine.Debug.Log ("保存に失敗: " + e.ErrorMessage);
@@ -166,7 +166,7 @@ public class Unity_DB_DEMO : MonoBehaviour {
 					UnityEngine.Debug.Log ("保存に成功");
 				}
 			}
-		
+
 		);
 
 	}
